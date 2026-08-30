@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "@/styles/globals.css";
-import { yekanFont as yekan } from "@/lib/font";
+import { rayFont as ray } from "@/lib/font";
 
 export const metadata: Metadata = {
   title: "مارال شاپ",
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
-      className={`h-full antialiased ${yekan.variable}`}
+      className={`h-full antialiased ${ray.variable}`}
       lang="fa-IR"
       dir="rtl"
       suppressHydrationWarning
