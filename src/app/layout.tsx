@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-
-import "./globals.css";
+import "@/styles/globals.css";
+import Providers from "@/providers";
 
 export const metadata: Metadata = {
   title: "Maral Shop",
@@ -8,8 +8,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`h-full antialiased`}>
-      <body>{children}</body>
+    <html lang="en" className={`h-full antialiased`} suppressHydrationWarning>
+      <body>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   );
 }
