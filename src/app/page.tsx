@@ -1,8 +1,10 @@
+import Header from "@/components/home/header";
+
 const HomePage = () => {
   return (
-    <div>
-      <h1>Maral Shop</h1>
-    </div>
+    <>
+      <Header />
+    </>
   );
 };
 
