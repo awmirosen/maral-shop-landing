@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 export const yekanFont = localFont({
   src: [
     {
-      path: "../../public/fonts/yekan-bakh.ttf",
+      path: "../../public/fonts/yekan-bakh.woff",
       weight: "400",
       style: "normal",
     },

@@ -15,21 +15,6 @@
   --shadow-soft: 0 8px 30px rgba(63, 44, 46, 0.08);
 }
 
-.dark {
-  --background: oklch(28.5% 0.035 20);
-  --foreground: oklch(94.8% 0.025 35);
-
-  --primary: oklch(68% 0.055 15);
-  --primary-foreground: oklch(28.5% 0.035 20);
-
-  --accent: oklch(86% 0.045 25);
-  --accent-foreground: oklch(28.5% 0.035 20);
-
-  --secondary: oklch(45% 0.075 20);
-
-  --shadow-soft: 0 8px 30px rgba(0, 0, 0, 0.25);
-}
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
