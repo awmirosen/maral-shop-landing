@@ -7,7 +7,7 @@ const Leaf = () => {
       alt="leaf"
       width={200}
       height={300}
-      className="w-15 absolute top-40 -left-3"
+      className="w-15 absolute top-40 left-0"
     />
   );
 };

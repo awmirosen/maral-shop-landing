@@ -14,7 +14,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       dir="rtl"
       suppressHydrationWarning
     >
-      <body className="max-w-sm min-h-svh max-h-svh mx-auto bg-background">
+      <body className="max-w-sm min-h-svh max-h-svh overflow-hidden mx-auto bg-background">
         {children}
       </body>
     </html>
