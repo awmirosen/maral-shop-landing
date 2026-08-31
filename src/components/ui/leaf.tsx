@@ -3,11 +3,11 @@ import Image from "next/image";
 const Leaf = () => {
   return (
     <Image
-      src="/leaf.svg"
+      src="/leaf-1.svg"
       alt="leaf"
-      width={200}
-      height={300}
-      className="w-15 absolute top-40 left-0"
+      width={300}
+      height={400}
+      className="w-25 absolute top-0 right-0"
     />
   );
 };

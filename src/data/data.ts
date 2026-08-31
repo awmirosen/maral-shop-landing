@@ -26,8 +26,8 @@ export const MARAL_SHOP_DATA: DataType[] = [
   },
   {
     Icon: AiOutlinePhone,
-    link: "#",
+    link: "tel:+989126336604",
     title: "شماره تماس",
-    description: "09126336604",
+    description: "",
   },
 ];
