@@ -21,12 +21,12 @@ export const MARAL_SHOP_DATA: DataType[] = [
   {
     Icon: AiOutlineShoppingCart,
     link: "#",
-    title: "وبسایت (در حال ساخت)",
-    description: "",
+    title: "وبسایت",
+    description: "(در حال ساخت)",
   },
   {
     Icon: AiOutlinePhone,
-    link: "tel:+989126336604",
+    link: "tel:+989301209225",
     title: "شماره تماس",
     description: "",
   },
