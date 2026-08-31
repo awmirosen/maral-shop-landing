@@ -1,14 +1,13 @@
 import Leaf from "@/components/ui/leaf";
 import Header from "@/components/home/header";
-import Main from "@/components/home/main";
+import Content from "@/components/home/content";
 
 const HomePage = () => {
   return (
     <main className="relative flex flex-col">
       <Leaf />
       <Header />
-      <Main />
-      
+      <Content />
     </main>
   );
 };

@@ -13,8 +13,6 @@
   --accent-foreground: oklch(99% 0 0);
 
   --secondary: oklch(87% 0.035 35);
-
-  --shadow-soft: 0 8px 30px rgba(56, 41, 43, 0.08);
 }
 
 @theme inline {
@@ -28,8 +26,6 @@
   --color-accent-foreground: var(--accent-foreground);
 
   --color-secondary: var(--secondary);
-
-  --shadow-soft: var(--shadow-soft);
 }
 
 html,
